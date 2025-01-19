@@ -1,3 +1,40 @@
 .hero{
-    
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.hsection{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hsection.right{
+    align-items: end;
+}
+
+.htitle{
+    margin-top: 40px;
+    font-size: 95px;
+    color: pink;
+}
+
+.htitle span{
+    color: white;
+}
+
+.awards{
+    width: 35%;
+}
+
+.awards p{
+    font-size: 14px;
+    color: #ddd;
+    margin: 16px 0px;
+}
+
+.awardimgs{
+    display: flex;
+    gap: 8px;
 }
