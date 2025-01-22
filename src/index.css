@@ -31,7 +31,7 @@ a{
 }
 
 section{
-    height: 110vh;
+    height: 100vh;
     scroll-snap-align: center;
 }
 
