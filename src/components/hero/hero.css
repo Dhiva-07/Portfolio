@@ -15,7 +15,7 @@
 
 .hImg{
     position: absolute;
-    top : 10%;
+    opacity: 1;
     left: 0;
     right: 0;
     bottom: 0;
