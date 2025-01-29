@@ -49,7 +49,7 @@ const Hero = () => {
         >
           Hey There,
           <br />
-          <span>I'm Robert!</span>
+          <span>I'm Dhivakar!</span>
         </motion.h1>
         {/* AWARDS */}
         <motion.div
@@ -58,14 +58,20 @@ const Hero = () => {
           animate="animate"
           className="awards"
         >
-          <motion.h2 variants={awardVariants}>Top Rated Designer</motion.h2>
+          <motion.h2 variants={awardVariants}>Top Rated Coder</motion.h2>
           <motion.p variants={awardVariants}>
-            Lorem ipsum dolor sit amet, dfdf sdfdsfdffsdfs.
+            Primarily a Problem Solver , Secondarily a Developer!
           </motion.p>
           <motion.div variants={awardVariants} className="awardimgs">
-            <motion.img variants={awardVariants} src="/award1.png" alt="" />
-            <motion.img variants={awardVariants} src="/award2.png" alt="" />
-            <motion.img variants={awardVariants} src="/award3.png" alt="" />
+            <a href="https://codeforces.com/profile/dhiva21112004">
+            <motion.img variants={awardVariants} src="/codeforces.png" alt="" />
+            </a>
+            <a href="https://www.codechef.com/users/dhiva_07">
+            <motion.img variants={awardVariants} src="/codechef.png" alt="" />
+            </a>
+            <a href="https://atcoder.jp/users/Dhiva07">
+            <motion.img variants={awardVariants} src="/atcoder.png" alt="" />
+            </a>
           </motion.div>
         </motion.div>
         {/* SCROLL SVG */}
@@ -114,13 +120,13 @@ const Hero = () => {
           animate="animate"
           className="follow"
         >
-          <motion.a variants={followVariants} href="/">
+          <motion.a variants={followVariants} href="https://www.instagram.com/dhiva_999/?next=%2F">
             <img src="/instagram.png" alt="" />
           </motion.a>
-          <motion.a variants={followVariants} href="/">
+          <motion.a variants={followVariants} href="https://www.facebook.com/profile.php?id=100086148460715">
             <img src="/facebook.png" alt="" />
           </motion.a>
-          <motion.a variants={followVariants} href="/">
+          <motion.a variants={followVariants} href="https://www.youtube.com/@dhivakarduraikandan">
             <img src="/youtube.png" alt="" />
           </motion.a>
           <motion.div variants={followVariants} className="followTextContainer">
@@ -130,7 +136,7 @@ const Hero = () => {
         {/* BUBBLE */}
         <Speech />
         {/* CERTIFICATE */}
-        <motion.div
+        {/* <motion.div
           animate={{ opacity: [0, 1] }}
           transition={{ duration: 4 }}
           className="certificate"
@@ -141,7 +147,7 @@ const Hero = () => {
           PROFESSIONAL
           <br />
           UI DESIGNER
-        </motion.div>
+        </motion.div> */}
         {/* CONTACT BUTTON */}
         <motion.a
           href="#contact"
